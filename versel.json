@@ -1,6 +1,6 @@
 {
-    "version" : 2,
-    "name" : "Project_deployment",
-    "builds" : [{"src" : "server.js", "use": "@vercel/node" }],
-    "routes" : [{"src" : "/(.*)", "dest" : "/index.js"}]
+    "version": 2,
+    "name": "Project_deployment",
+    "builds": [{ "src": "server.js", "use": "@vercel/node" }],
+    "routes": [{ "src": "/(.*)", "dest": "/server.js" }]
 }
